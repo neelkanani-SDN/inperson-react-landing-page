@@ -11,8 +11,10 @@ function Footerlanding() {
         Partner with a growing leader
       </h2>
       <p className="text-[18px] text-[#828282] mb-10">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.{" "}
+        Stay connected, improve your organization’s productivity, and
+        collaborate to achieve your goals and grow your business. We bring
+        video, audio, and web conferencing together to help customers and
+        partners communicate remotely with ease.
       </p>
       <div className="flex flex-col md:flex-row md:justify-between md:items-center ">
         <div className="">

@@ -58,9 +58,12 @@ function Landing() {
         <h1 className="text-[44px] lg:text-[72px] font-bold lg:w-8/12 mt-20">
           One app for everyone to work together
         </h1>
-        <p className="text-base mb-4 mt-2">
-          If you’re a company or an individual looking for an expert,
-          <br /> consultant or NGO, your’re at a right place.
+        <p className="text-base lg:w-8/12 mb-4 mt-2">
+          Are you a company or an individual looking for an expert, consultant,
+          or NGO? Gain access to online face-to-face meetings and video
+          conferencing and discover the InPerson opportunities for
+          collaboration, productivity, and tech support with colleagues and
+          customers.
         </p>
         <div className="my-[80px] flex flex-col lg:flex-row justify-between items-start lg:space-x-4 space-y-10 lg:space-y-0">
           <div>
@@ -69,8 +72,9 @@ function Landing() {
               Expert
             </h4>
             <p className="text-[18px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Offer real-time customer service, sales, or tech support
+              regardless of physical location via video or audio call as a First
+              level customer service representative.
             </p>
           </div>
           <div>
@@ -89,8 +93,9 @@ function Landing() {
               NGO
             </h4>
             <p className="text-[18px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Get unlimited one-on-one conferencing, increase your team's
+              productivity, discuss opportunities for collaboration and host
+              online events with impact.
             </p>
           </div>
         </div>

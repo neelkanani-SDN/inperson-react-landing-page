@@ -66,17 +66,23 @@ function App() {
         <div className="flex justify-between flex-col lg:flex-row  space-y-8">
           <div className="lg:w-6/12">
             <p className="text-[18px] my-8 text-[#828282]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Did you know that flexible, hybrid work causes a 77% increase in
+              productivity? With virtually yet InPerson meetings, businesses can
+              build cost-effective decentralized call centers for real-time
+              customer video without prior appointment.
             </p>
             <p className="text-[18px] text-[#828282]">
-              If you have expertise in <br />
+              Are well-versed in
+              <br />
               <span className="font-medium text-[24px] text-[#0F0E40] ">
-                Business Development(Sales), Tech Spport or Customer Service
+                Sales, Tech Support, or Customer Service?
               </span>{" "}
               <br />
-              then we provide you an opportunity to work from home as an expert.
-              You bring the skill. We’ll make earning easy
+              Now you can work from home as an expert for InPerson. Our call
+              center agents have access to our unique technology platform,
+              training programs, and advanced business processes. You bring the
+              skill. Explore the benefits of safe and encrypted communication
+              across the US We’ll make earning easy.
             </p>
           </div>
           <img src={u3} alt="person" className="mx-4 lg:w-72 lg:mx-10  " />
@@ -156,9 +162,8 @@ function App() {
                     Enqire
                   </p>
                   <p className="text-[18px] text-[#828282]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Reach out to a service agent to enquire about any issues and
+                    find real-time solutions to every problem.
                   </p>
                 </div>
               </div>
@@ -169,9 +174,9 @@ function App() {
                     Message
                   </p>
                   <p className="text-[18px] text-[#828282]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Send and receive updates and communicate in-between video
+                    calls. Invite team members into the conversation, share
+                    files with secure, encrypted messaging
                   </p>
                 </div>
               </div>
@@ -187,12 +192,12 @@ function App() {
                 <img src={meetIcon} alt="phone" />
                 <div className="flex flex-col space-y-2">
                   <p className="text-[#0F0E40] text-[18px] font-medium">
-                    Meeting
+                    Meetings
                   </p>
                   <p className="text-[18px] text-[#828282]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Increase productivity and host engaging visual meetings,
+                    training, and company events for everyone to attend from
+                    their at-home desks.
                   </p>
                 </div>
               </div>
@@ -200,12 +205,11 @@ function App() {
                 <img src={calenderIcon} alt="phone" />
                 <div className="flex flex-col space-y-2">
                   <p className="text-[#0F0E40] text-[18px] font-medium">
-                    Book Appointment
+                    Book Appointments
                   </p>
                   <p className="text-[18px] text-[#828282]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Easily schedule appointments and manage your calendar in one
+                    easy-to-use app.
                   </p>
                 </div>
               </div>
@@ -220,13 +224,16 @@ function App() {
                 alt="mobile convo"
               />
             </div>
-            <div className="md:w-6/12">
+            <div className="md:w-8/12">
               <h4 className="text-[24px] md:text-[32px] font-medium text-[#0F0E40]">
                 Collaborate with Customer Support over a video call
               </h4>
               <p className="text-[18px] md:text-[22px] text-[#828282]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Effectively work with customer support for 1-on-1 customer
+                service to clarify, review, troubleshoot, and resolve any issues
+                quickly with on-demand video calls. In Person’s innovative,
+                customer-cantered approach leaves no room for unnecessary
+                back-and-forth chatting or dissatisfied customers.
               </p>
             </div>
           </div>
@@ -236,7 +243,7 @@ function App() {
       <Services />
       <div className=" px-[20px] py-[120px] lg:p-[120px]">
         <h2 className="font-bold mb-10 text-[44px] lg:text-[72px] text-[#0F0E40] ">
-          Build for Customers and <br /> Companies to work together
+          Built for Customers and <br /> Companies to work together
         </h2>
         <div className="flex  my-8 mb-14 justify-between items-center ">
           <div className="relative hidden md:block w-5/12 my-2 flex-shrink-0">
@@ -252,19 +259,25 @@ function App() {
             />
           </div>
           <div className="w-full md:w-6/12  flex-shrink-0 ">
-            <h4 className="text-[28px] mb-10">What is it for experts?</h4>
+            <h4 className="text-[28px] mb-10">
+              Are you an expert? in Person is for you!
+            </h4>
             <p className="text-[#828282] text-[16px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Time to leverage your customer service, sales, or technical
+              support experience! Avoid the stress of having a 9-5 job and
+              managing a physical office space by working remotely from home.
+              With InPerson, you can be your own boss, cut out the commute, work
+              flexible hours from the comfort of your own home, and earn at your
+              own convenience.
             </p>
-            <p className="flex text-[16px] space-x-2 my-4 text-blue-500">
+            <p className="flex text-[16px] space-x-2 my-4 text-blue-500 cursor-pointer">
               Learn More <BsArrowRightShort size={24} />
             </p>
           </div>
         </div>
         <div className="grid lg:grid-cols-2">
           <div className="lg:w-96 mt-8 flex-shrink-0">
-            <h4 className="text-[28px] mb-10">What is it for companies?</h4>
+            <h4 className="text-[28px] mb-10">Security</h4>
 
             <div className="relative my-2">
               <img
@@ -279,15 +292,19 @@ function App() {
               />
             </div>
             <p className="text-[#828282] text-[16px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Effective and reliable workplace security is our top priority. Are
+              you concerned with those who seek to exploit your digital
+              presence? InPerson has taken all the necessary measures to ensure
+              that no one will be able to gain access to sensitive information.
+              Protect your devices from malware and keep your communications
+              strictly private with data encryption.
             </p>
-            <p className="flex text-[16px] space-x-2 my-4 text-blue-500">
+            <p className="flex text-[16px] space-x-2 my-4 text-blue-500 cursor-pointer">
               Learn More <BsArrowRightShort size={24} />
             </p>
           </div>
           <div className="lg:w-96 mt-8 flex-shrink-0">
-            <h4 className="text-[28px] mb-10">What is it for experts?</h4>
+            <h4 className="text-[28px] mb-10">Transactions</h4>
             <div className="relative my-2">
               <img
                 src={image180}
@@ -301,10 +318,12 @@ function App() {
               />
             </div>
             <p className="text-[#828282] text-[16px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Money transactions have just become a breeze! Collect or make
+              payments online with our safe and secure payment service from
+              anywhere, at any time. Whether it’s a donation to your favourite
+              cause or a last-minute doctor appointment, we’ve got you!
             </p>
-            <p className="flex text-[16px] space-x-2 my-4 text-blue-500">
+            <p className="flex text-[16px] space-x-2 my-4 text-blue-500 cursor-pointer">
               Learn More <BsArrowRightShort size={24} />
             </p>
           </div>
