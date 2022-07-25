@@ -23,7 +23,7 @@ function Landing() {
             <div className="space-x-4 items-center hidden md:flex text-sm">
               <a href="#one_app_for_everyone">About Us</a>
               <a href="#what_we_do">What We Do</a>
-              <a href="#footer">Pricing</a>
+              {/* <a href="#footer">Pricing</a> */}
               <a href="#testimonials">Testimonials</a>
               <a href="#contact_us">Contact</a>
               <Link to="/login">
