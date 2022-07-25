@@ -6,7 +6,7 @@ import qrScan from "../assets/images/qr-scan.png";
 
 function Footerlanding() {
   return (
-    <div className=" px-[20px] lg:px-[120px] py-[80px]">
+    <div id="contact_us" className=" px-[20px] lg:px-[120px] py-[80px]">
       <h2 className=" text-[44px] lg:text-[60px] font-medium text-[#0F0E40]">
         Partner with a growing leader
       </h2>

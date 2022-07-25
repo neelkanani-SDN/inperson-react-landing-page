@@ -8,7 +8,7 @@ import star from "../assets/images/star.png";
 
 function Testimonials() {
   return (
-    <div className=" px-[20px] lg:px-[120px] py-[60px]">
+    <div id="testimonials" className=" px-[20px] lg:px-[120px] py-[60px]">
       <h2 className="text-center text-[40px] font-medium">
         What our clients say about us.
       </h2>

@@ -9,7 +9,10 @@ import inpersonWhite from "../assets/images/inperson-white.png";
 
 function Footer() {
   return (
-    <div className=" bg-gradient-to-b to-[#B240F5] from-[#2D6EF5]  px-[20px] lg:px-[120px] py-[64px] grid gap-8 lg:grid-cols-3">
+    <div
+      id="footer"
+      className=" bg-gradient-to-b to-[#B240F5] from-[#2D6EF5]  px-[20px] lg:px-[120px] py-[64px] grid gap-8 lg:grid-cols-3"
+    >
       <div className="flex flex-col justify-between items-start">
         <img
           src={inpersonWhite}
@@ -25,14 +28,14 @@ function Footer() {
       </div>
       <div className="grid grid-cols-2 text-white text-sm">
         <div className="flex flex-col space-y-2">
-          <p>Home</p>
-          <p>About Us</p>
-          <p>What We Do</p>
-          <p>Pricing</p>
+          <a href="/#landing">Home</a>
+          <a href="/#one_app_for_everyone">About Us</a>
+          <a href="/#what_we_do">What We Do</a>
+          <a href="/#testimonials">Testimonials</a>
         </div>
         <div className="flex flex-col space-y-2">
-          <p>Contact Us</p>
-          <p>FAQ</p>
+          <a href="/#contact_us">Contact Us</a>
+
           <p>Privacy Policy</p>
           <p>Terms & Conditions</p>
         </div>

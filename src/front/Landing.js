@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import { BsArrowRightShort } from "react-icons/bs";
 
 import image179 from "../assets/images/image 179.png";
@@ -11,7 +11,7 @@ import inperson from "../assets/images/inperson.png";
 function Landing() {
   return (
     <>
-      <div className="relative h-[80vh] min-h-[680px] ">
+      <div id="landing" className="relative h-[80vh] min-h-[680px] ">
         <img
           src={image179}
           alt="girl talking on phone"
@@ -21,14 +21,16 @@ function Landing() {
           <div className="flex items-center justify-between p-[20px] lg:p-[60px]">
             <img src={inperson} alt="Inperson" className="h-12" />
             <div className="space-x-4 items-center hidden md:flex text-sm">
-              <p>About Us</p>
-              <p>What We Do</p>
-              <p>Pricing</p>
-              <p>FAQ</p>
-              <p>Contact</p>
-              <button className="text-sm p-2 px-4 rounded-md  bg-gradient-to-tr from-[#B240F5] to-[#2D6EF5] flex items-center">
-                Login/Sign up
-              </button>
+              <a href="#one_app_for_everyone">About Us</a>
+              <a href="#what_we_do">What We Do</a>
+              <a href="#footer">Pricing</a>
+              <a href="#testimonials">Testimonials</a>
+              <a href="#contact_us">Contact</a>
+              <Link to="/login">
+                <button className="text-sm p-2 px-4 rounded-md  bg-gradient-to-tr from-[#B240F5] to-[#2D6EF5] flex items-center">
+                  Login/Sign up
+                </button>
+              </Link>
             </div>
           </div>
           <div className="px-[20px] py-[120px] lg:p-[120px] pt-[90px]">
@@ -43,18 +45,25 @@ function Landing() {
             <div className="flex flex-col lg:flex-row  md:items-center md:space-x-4 space-y-4 md:space-y-0 ">
               <span className="text-base">Are you a company?</span>
               <div className="flex space-x-4 items-center ">
-                <button className="shadow-md text-sm p-2 px-4 rounded-md  bg-gradient-to-tr from-[#B240F5] to-[#2D6EF5] flex items-center">
-                  Sign up <BsArrowRightShort size={24} />
-                </button>
-                <button className="shadow-md rounded-md  ring-1 ring-white p-2 px-4 text-sm">
-                  Contact Us
-                </button>
+                <Link to="/register">
+                  <button className="shadow-md text-sm p-2 px-4 rounded-md  bg-gradient-to-tr from-[#B240F5] to-[#2D6EF5] flex items-center">
+                    Sign up <BsArrowRightShort size={24} />
+                  </button>
+                </Link>
+                <a href="#contact_us">
+                  <button className="shadow-md rounded-md  ring-1 ring-white p-2 px-4 text-sm">
+                    Contact Us
+                  </button>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="bg-gradient-to-b to-[#B240F5] from-[#2D6EF5] text-white  px-[20px] py-[80px] lg:p-[120px]">
+      <div
+        id="one_app_for_everyone"
+        className="bg-gradient-to-b to-[#B240F5] from-[#2D6EF5] text-white  px-[20px] py-[80px] lg:p-[120px]"
+      >
         <h1 className="text-[44px] lg:text-[72px] font-bold lg:w-8/12 mt-20">
           One app for everyone to work together
         </h1>
