@@ -29,7 +29,7 @@ function Footer() {
       <div className="grid grid-cols-2 text-white text-sm">
         <div className="flex flex-col space-y-2">
           <a href="/#landing">Home</a>
-          <a href="/#one_app_for_everyone">About Us</a>
+          <a href="/#about_us">About Us</a>
           <a href="/#what_we_do">What We Do</a>
           <a href="/#testimonials">Testimonials</a>
         </div>

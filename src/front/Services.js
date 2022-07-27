@@ -13,31 +13,31 @@ function Services() {
         Interact with anyone from any industry{" "}
       </h4>
       <div className="flex flex-nowrap p-4 overflow-scroll scrollbar-hide items-center space-x-6 my-10 justify-center">
-        <div className="h-28 w-28 hover:transform flex-shrink-0 hover:scale-110 cursor-pointer bg-white shadow flex flex-col items-center justify-center">
+        <div className="h-28 w-28  flex-shrink-0   bg-white shadow flex flex-col items-center justify-center">
           <img alt="services" src={healthIcon} className="w-12" />
           <p className="text-sm">Health Care</p>
         </div>
-        <div className="h-28 w-28 hover:transform flex-shrink-0 hover:scale-110 cursor-pointer bg-white shadow flex flex-col items-center justify-center">
+        <div className="h-28 w-28  flex-shrink-0   bg-white shadow flex flex-col items-center justify-center">
           <img alt="services" src={flightIcon} className="w-12" />
           <p className="text-sm">Transportation</p>
         </div>
-        <div className="h-28 w-28 hover:transform flex-shrink-0 hover:scale-110 cursor-pointer bg-white shadow flex flex-col items-center justify-center">
+        <div className="h-28 w-28  flex-shrink-0   bg-white shadow flex flex-col items-center justify-center">
           <img alt="services" src={movieIcon} className="w-12" />
           <p className="text-sm">Entertainment</p>
         </div>
-        <div className="h-28 w-28 hover:transform flex-shrink-0 hover:scale-110 cursor-pointer bg-white shadow flex flex-col items-center justify-center">
+        <div className="h-28 w-28  flex-shrink-0   bg-white shadow flex flex-col items-center justify-center">
           <img alt="services" src={schoolIcon} className="w-12" />
           <p className="text-sm">Education</p>
         </div>
-        <div className="h-28 w-28 hover:transform flex-shrink-0 hover:scale-110 cursor-pointer bg-white shadow flex flex-col items-center justify-center">
+        <div className="h-28 w-28  flex-shrink-0   bg-white shadow flex flex-col items-center justify-center">
           <img alt="services" src={sportIcon} className="w-12" />
           <p className="text-sm">Sports</p>
         </div>
-        <div className="h-28 w-28 hover:transform flex-shrink-0 hover:scale-110 cursor-pointer bg-white shadow flex flex-col items-center justify-center">
+        <div className="h-28 w-28  flex-shrink-0   bg-white shadow flex flex-col items-center justify-center">
           <img alt="services" src={repareIcon} className="w-12" />
           <p className="text-sm">Home Service</p>
         </div>
-        <div className="h-28 w-28 hover:transform flex-shrink-0 hover:scale-110 cursor-pointer bg-white shadow flex flex-col items-center justify-center">
+        <div className="h-28 w-28  flex-shrink-0   bg-white shadow flex flex-col items-center justify-center">
           <img alt="services" src={mobileIcon} className="w-12" />
           <p className="text-sm">Social Media</p>
         </div>

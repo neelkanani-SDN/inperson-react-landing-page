@@ -1,8 +1,8 @@
 import React from "react";
 import Testimonials from "./front/Testimonials";
 import Footerlanding from "./front/Footerlanding";
-
-import { BsArrowRightShort } from "react-icons/bs";
+import AboutUs from "./front/AboutUs";
+// import { BsArrowRightShort } from "react-icons/bs";
 
 import image180 from "./assets/images/image 180.png";
 import image181 from "./assets/images/image 181.png";
@@ -46,6 +46,7 @@ function App() {
   return (
     <div className="overflow-hidden ">
       <Landing />
+      <AboutUs />
       <div className=" px-[20px] lg:px-[120px] my-10 relative ">
         <img
           src={vctLeft}
@@ -270,9 +271,9 @@ function App() {
               flexible hours from the comfort of your own home, and earn at your
               own convenience.
             </p>
-            <p className="flex text-[16px] space-x-2 my-4 text-blue-500 cursor-pointer">
+            {/* <p className="flex text-[16px] space-x-2 my-4 text-blue-500 cursor-pointer">
               Learn More <BsArrowRightShort size={24} />
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="grid lg:grid-cols-2">
@@ -299,9 +300,9 @@ function App() {
               Protect your devices from malware and keep your communications
               strictly private with data encryption.
             </p>
-            <p className="flex text-[16px] space-x-2 my-4 text-blue-500 cursor-pointer">
+            {/* <p className="flex text-[16px] space-x-2 my-4 text-blue-500 cursor-pointer">
               Learn More <BsArrowRightShort size={24} />
-            </p>
+            </p> */}
           </div>
           <div className="lg:w-96 mt-8 flex-shrink-0">
             <h4 className="text-[28px] mb-10">Transactions</h4>
@@ -323,9 +324,9 @@ function App() {
               anywhere, at any time. Whether it’s a donation to your favourite
               cause or a last-minute doctor appointment, we’ve got you!
             </p>
-            <p className="flex text-[16px] space-x-2 my-4 text-blue-500 cursor-pointer">
+            {/* <p className="flex text-[16px] space-x-2 my-4 text-blue-500 cursor-pointer">
               Learn More <BsArrowRightShort size={24} />
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

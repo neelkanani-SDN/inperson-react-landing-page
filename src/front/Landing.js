@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BsArrowRightShort } from "react-icons/bs";
+// import { BsArrowRightShort } from "react-icons/bs";
 
 import image179 from "../assets/images/image 179.png";
 import globe from "../assets/images/globe.png";
@@ -21,7 +21,7 @@ function Landing() {
           <div className="flex items-center justify-between p-[20px] lg:p-[60px]">
             <img src={inperson} alt="Inperson" className="h-12" />
             <div className="space-x-4 items-center hidden md:flex text-sm">
-              <a href="#one_app_for_everyone">About Us</a>
+              <a href="#about_us">About Us</a>
               <a href="#what_we_do">What We Do</a>
               {/* <a href="#footer">Pricing</a> */}
               <a href="#testimonials">Testimonials</a>
@@ -35,14 +35,18 @@ function Landing() {
           </div>
           <div className="px-[20px] py-[120px] lg:p-[120px] pt-[90px]">
             <h1 className="text-[64px] md:text-[72px] lg:text-[96px] font-bold lg:w-8/12">
-              Enjoy your inperson service
+              The New Business Tool Is Video
             </h1>
             <p className="text-base mb-4 mt-2">
-              Video Communication designed for customer ease and increased
+              {/* Video Communication designed for customer ease and increased
               <br />
-              opportunity for sales
+              opportunity for sales */}
+              InPerson is a decentralized call center SAAS PLATFORM that allows
+              anyone across North America <br /> work remotely as a customer
+              service agent, tech support or sales agents for our partner
+              companies.
             </p>
-            <div className="flex flex-col lg:flex-row  md:items-center md:space-x-4 space-y-4 md:space-y-0 ">
+            {/* <div className="flex flex-col lg:flex-row  md:items-center md:space-x-4 space-y-4 md:space-y-0 ">
               <span className="text-base">Are you a company?</span>
               <div className="flex space-x-4 items-center ">
                 <Link to="/register">
@@ -56,7 +60,7 @@ function Landing() {
                   </button>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -92,8 +96,10 @@ function Landing() {
               Consultant
             </h4>
             <p className="text-[18px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Consultants can build their businesses by connecting with their
+              clients, scheduling sessions, get paid directly in app and have an
+              Inquiry contact representative all in their searchable profile
+              within the InPerson App
             </p>
           </div>
           <div>
