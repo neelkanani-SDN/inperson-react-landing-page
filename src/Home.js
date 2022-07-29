@@ -83,7 +83,7 @@ function App() {
               center agents have access to our unique technology platform,
               training programs, and advanced business processes. You bring the
               skill. Explore the benefits of safe and encrypted communication
-              across the US We’ll make earning easy.
+              across the US. We’ll make earning easy.
             </p>
           </div>
           <img src={u3} alt="person" className="mx-4 lg:w-72 lg:mx-10  " />
@@ -160,7 +160,7 @@ function App() {
                 <img src={phoneIcon} alt="phone" />
                 <div className="flex flex-col space-y-2">
                   <p className="text-[#0F0E40] text-[18px] font-medium">
-                    Enqire
+                    Inquire
                   </p>
                   <p className="text-[18px] text-[#828282]">
                     Reach out to a service agent to enquire about any issues and
@@ -321,7 +321,7 @@ function App() {
             <p className="text-[#828282] text-[16px]">
               Money transactions have just become a breeze! Collect or make
               payments online with our safe and secure payment service from
-              anywhere, at any time. Whether it’s a donation to your favourite
+              anywhere, at any time. Whether it’s a donation to your favorite
               cause or a last-minute doctor appointment, we’ve got you!
             </p>
             {/* <p className="flex text-[16px] space-x-2 my-4 text-blue-500 cursor-pointer">

@@ -5,3 +5,7 @@
 html {
   scroll-behavior: smooth;
 }
+
+.active_header {
+  background-color: #2d6ef5;
+}
