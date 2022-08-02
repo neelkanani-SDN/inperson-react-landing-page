@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8b1ead8.css",
-    "main.js": "/static/js/main.9f958483.js",
+    "main.css": "/static/css/main.8abdca8d.css",
+    "main.js": "/static/js/main.e589f924.js",
     "static/media/image 179.png": "/static/media/image 179.6b820221b359af8c5bc1.png",
     "static/media/image-call-mobile.png": "/static/media/image-call-mobile.e888837add1e151b183e.png",
     "static/media/image 94.png": "/static/media/image 94.43b169fb37639f66d050.png",
@@ -9,7 +9,9 @@
     "static/media/image 181.png": "/static/media/image 181.50a0d2bec0bde2f7a27c.png",
     "static/media/mobile-ticketsnap2.png": "/static/media/mobile-ticketsnap2.bbe6fd2c91ff928c6b78.png",
     "static/media/vct-center.png": "/static/media/vct-center.0eb2f6ea5b2693bd808f.png",
+    "static/media/u4.jpeg": "/static/media/u4.4e1103b43457e0472adc.jpeg",
     "static/media/mobile-ticketsnap.png": "/static/media/mobile-ticketsnap.26a653be8d98190058a5.png",
+    "static/media/u5.jpeg": "/static/media/u5.b03d3cb97eb1e46026fc.jpeg",
     "static/media/vct-right.png": "/static/media/vct-right.0233eadd4649f7616e2d.png",
     "static/media/vct-left.png": "/static/media/vct-left.7ff1ab3d66a1280ec0a0.png",
     "static/media/u1.png": "/static/media/u1.549cbf55dc793a16f7b3.png",
@@ -17,11 +19,11 @@
     "static/media/inperson.png": "/static/media/inperson.81c55040b5b7925f99ed.png",
     "static/media/inperson-play.png": "/static/media/inperson-play.f34d14b32efd80bbf20b.png",
     "index.html": "/index.html",
-    "main.a8b1ead8.css.map": "/static/css/main.a8b1ead8.css.map",
-    "main.9f958483.js.map": "/static/js/main.9f958483.js.map"
+    "main.8abdca8d.css.map": "/static/css/main.8abdca8d.css.map",
+    "main.e589f924.js.map": "/static/js/main.e589f924.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8b1ead8.css",
-    "static/js/main.9f958483.js"
+    "static/css/main.8abdca8d.css",
+    "static/js/main.e589f924.js"
   ]
 }

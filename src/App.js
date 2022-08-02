@@ -3,6 +3,12 @@ import Home from "./Home";
 import Login from "./Login";
 import Register from "./Register";
 import { Switch, Route } from "react-router-dom";
+
+//swiper css module
+
+import "swiper/css";
+import "swiper/css/pagination";
+
 function App() {
   return (
     <div>
