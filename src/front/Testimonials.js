@@ -8,10 +8,12 @@ import user4 from "../assets/images/u4.jpeg";
 import user5 from "../assets/images/u5.jpeg";
 import startFill from "../assets/images/star-fill.png";
 // import star from "../assets/images/star.png";
+import Modal from "../components/Modal";
 import { useRef } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation } from "swiper";
+import { useState } from "react";
 
 SwiperCore.use([Navigation]);
 
@@ -26,13 +28,13 @@ let testimonials = [
     profile: user2,
     name: "James Normile",
     title: "Potential industry Disruptor.",
-    body: `I’ve been testing In Person for my company Call center needs and it is truly revolutionary. The platform allows us to localize the call enter experience and create teams in regions which allows customers have contact with agents that understand their exact needs. We might no longer need to hire large call centers while also bringing Video to the customer experienc`,
+    body: `I’ve been testing In Person for my company Call center needs and it is truly revolutionary. The platform allows us to localize the call enter experience and create teams in regions which allows customers have contact with agents that understand their exact needs. We might no longer need to hire large call centers while also bringing Video to the customer experience.`,
   },
   {
     profile: user5,
     name: "Chuck Watson",
     title: "Truly Phenomenal",
-    body: `We have implemented InPerson throughout the company mainly for customer service and contact center. We felt that with InPerson would be difficult to carry out our customer service actions, replacing the call center we have used in India previously however, we began to see the impact in having faster customer response and better online reviews. The advances and the contacts were effective, adding the characteristic that it is to have tools such as sharing the screen so that CSM agents can see what the customer is trying to describe including certain sheets, images, projects or whatever was being talked about, making calendars to carry out work management and recorded conversations so we can review calls and maintain quality without directly hiring a team  Another of the main actions that CS agents can call customers back, schedule calls and also make unscheduled calls to the FAQ desk, This has directly improved our revenue.`,
+    body: `We have implemented InPerson throughout the company mainly for customer service and contact center. We felt that with InPerson would be difficult to carry out our customer service actions, replacing the call center we have used in India previously however, we began to see the impact in having faster customer response and better online reviews. The advances and the contacts were effective, adding the characteristic that it is to have tools such as sharing the screen so that CSM agents can see what the customer is trying to describe including certain sheets, images, projects or whatever was being talked about, making calendars to carry out work management and recorded conversations so we can review calls and maintain quality without directly hiring a team  Another of the main actionsthat CS agents can call customers back, schedule calls and also make unscheduled calls to the FAQ desk, This has directly improved our revenue.`,
   },
   {
     profile: user4,
@@ -55,7 +57,7 @@ function ControlButton({ nextRef, prevRef }) {
   );
 }
 
-function Card({ data }) {
+function Card({ data, onClick }) {
   return (
     <div className="ring-2 flex-shrink-0   ring-blue-400 rounded-xl    p-8 w-full md:w-[445px]   ">
       <img
@@ -75,6 +77,12 @@ function Card({ data }) {
       <blockquote className="text-gray-500 text-[16px]  text-center">
         <p className=" line-clamp-6 ">{data.body}</p>
       </blockquote>
+      <p
+        onClick={onClick}
+        className="text-center text-blue-500 text-sm cursor-pointer"
+      >
+        Read More
+      </p>
     </div>
   );
 }
@@ -82,8 +90,40 @@ function Card({ data }) {
 function Testimonials() {
   const nextRef = useRef();
   const prevRef = useRef();
+  const [selectedReview, setSelectedReview] = useState(null);
+
+  const removeSelectedReview = () => {
+    setSelectedReview(null);
+  };
   return (
     <div id="testimonials" className=" px-[20px] lg:px-[120px] py-[60px]">
+      {selectedReview && (
+        <Modal onClose={removeSelectedReview}>
+          <div>
+            <img
+              src={selectedReview?.profile}
+              alt="user 1"
+              className="rounded-full object-cover h-28 w-28  mx-auto "
+            />
+            <h4 className="my-2 text-center font-medium">
+              {selectedReview?.name}
+            </h4>
+            <div className="flex items-center justify-center space-x-1 my-3">
+              <img src={startFill} alt="rated" className="h-5 " />
+              <img src={startFill} alt="rated" className="h-5 " />
+              <img src={startFill} alt="rated" className="h-5 " />
+              <img src={startFill} alt="rated" className="h-5 " />
+              <img src={startFill} alt="rated" className="h-5 " />
+            </div>
+            <p className="my-2 text-center font-medium">
+              {selectedReview?.title}
+            </p>
+            <blockquote className="text-gray-500 text-[16px]  text-center">
+              <p className="">{selectedReview?.body}</p>
+            </blockquote>
+          </div>
+        </Modal>
+      )}
       <h2 className="text-center text-[40px] font-medium">
         What our clients say about us.
       </h2>
@@ -110,7 +150,7 @@ function Testimonials() {
               className="p-3 md:!w-max flex items-center justify-center"
               key={index}
             >
-              <Card data={curr} />
+              <Card onClick={() => setSelectedReview(curr)} data={curr} />
             </SwiperSlide>
           ))}
         </Swiper>

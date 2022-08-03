@@ -9,3 +9,9 @@ html {
 .active_header {
   background-color: #2d6ef5;
 }
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

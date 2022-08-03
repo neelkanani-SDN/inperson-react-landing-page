@@ -3,6 +3,7 @@ import "./index.css";
 import React from "react";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
+import "animate.css";
 
 ReactDOM.render(
   <BrowserRouter>
