@@ -73,8 +73,6 @@ function App() {
               customer video without prior appointment.
             </p>
             <p className="text-[18px] text-[#828282]">
-              Are well-versed in
-              <br />
               <span className="font-medium text-[24px] text-[#0F0E40] ">
                 Sales, Tech Support, or Customer Service?
               </span>{" "}
